@@ -42,14 +42,9 @@ function handleDrop(event) {
 function handleDragEnter(event) {
   if (draggedItem !== this) {
     this.classList.add('drag-enter');
-    // container2.innerHTML = `
-    //   <div class="item" draggable="true" style="background-color:lightgreen";>Image</div>
-    //   <div class="item" draggable="true">Frontend project</div>
-    //   <div class="item" draggable="true">Mail📧</div>
-    //   <div class="item" draggable="true">The day is sunny.</div>
-    // `;
+    
   }
-  // container1.innerHTML = '';
+  
 
 }
 
