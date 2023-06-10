@@ -1,0 +1,56 @@
+    .container {
+        width: 694px;
+        height: 585px;
+        border: 1px solid black;
+        float: left;
+        margin-right: 20px;
+        padding: 10px;
+        padding-left: 25px;
+      }
+  
+      .item {
+
+        padding: 30px;
+        border: 1px solid gray;
+        background-color: lightblue;
+        margin-bottom: 5px;
+        cursor: move;
+        margin: 20px;
+      }
+  
+      .item.dragging {
+        opacity: 0.5;
+      }
+  
+      #container1 {
+        background-color: lightblue;
+      }
+      .double1{
+        border: 4px solid black;
+      }
+      .double2{
+        border: 4px solid black;
+      }
+  
+      #container2 {
+        background-color: lightgreen;
+      }
+  
+      #message {
+        margin-top: 80px;
+        font-weight: bold;
+
+      }
+
+    #resetButton{
+        margin-top: 10px;
+        border-radius: 6px;
+        background-color:darkgreen;
+        color: white;
+        margin-left: 720px;
+        padding: 10px;
+    }
+    #resetButton:hover{
+        background-color: red;
+        cursor: pointer;
+    }
